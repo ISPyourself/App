@@ -10,8 +10,8 @@ const App = () =>
   <Router>
     <Wrapper>
       <Navbar />
-      <Route exact path="/" component={Home} />
-      <Route exact path="/search" component={Search} />
+      <Route  path="/" component={Home} />
+      <Route  path="/search" component={Search} />
     </Wrapper>
   </Router>;
 
